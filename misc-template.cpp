@@ -10,8 +10,14 @@ using namespace std;
 #define FOR(i, a, b) for (int i = (a); i < int(b); ++i)
 #define REP(i, n) FOR(i, 0, n)
 #define __ << ' ' <<
+#define what_is(x) cerr << #x << ": " << x << "\n";
+
+#ifndef DEBUG
+    #define cerr if(false) cerr
+#endif
 
 typedef long long ll;
+typedef long long llint;
 typedef pair<int,int> pii;
 typedef pair<double, double> pdd;
 
